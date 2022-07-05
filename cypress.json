@@ -1,0 +1,11 @@
+{
+    "video": false,
+    "viewportWidth": 1000,
+    "viewportHeight": 660,
+    "defaultCommandTimeout": 30000,
+    "baseUrl": "https://parodify.herokuapp.com/users/sign_in"
+
+}
+
+
+

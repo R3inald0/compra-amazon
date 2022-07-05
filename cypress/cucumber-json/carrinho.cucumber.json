@@ -1,0 +1,53 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Carrinho",
+    "line": 1,
+    "id": "carrinho",
+    "tags": [],
+    "uri": "carrinho.feature",
+    "elements": [
+      {
+        "id": "carrinho;adicionar-multiplos-produtos-ao-carrinho---verificar-preço-final",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adicionar multiplos produtos ao carrinho - Verificar preço final",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou logado na amazon",
+            "result": {
+              "status": "passed",
+              "duration": 8354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Adicionar multiplos produtos ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 13971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "O preço final do meu carrinho é a soma itens adicionados",
+            "result": {
+              "status": "failed",
+              "duration": 3105000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -'\\n\\nSubtotaldo carrinho: \\n\\n\\n\\n\\n'\n    +'R$5.479,00'\n\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\carrinho.feature:41726:66)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
